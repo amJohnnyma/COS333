@@ -7,6 +7,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{hyperref}
 \geometry{margin=2.5cm}
 
 \title{COS333 Practical 1}
@@ -16,12 +17,12 @@
 \begin{document}
 
 \maketitle
-\section{Research Questions}
-\section{Implementation Questions}
+\tableofcontents
 
 
 \newpage
 \section{Research Questions}
+\addcontentsline{tableofcontents}
 
 \begin{enumerate}
     \item A computer programming language designed to experiment with weird ideas. They may be difficult to program in and are often created with a specific goal in mind (As a joke, to explore concepts, to be 'artistic', etc.)
@@ -33,9 +34,12 @@
       \item Can teach programming concepts minimally (like Turing completeness)
       \item Exploring language design and minimalism
 \end{itemize}
-    \item CHOSEN ESOTERIC LANGUAGES (WHITESPACE, INTERCAL)
+    \item Chosen Esoteric Languages (a.Whitespace, b.Intercal)
+        \begin{enumerate}
+        \item Whitespace is an imperative, stack-based language (similiar to Forth), created by Edwin Brady and Chris Morris in 2002. Whitespace defines a command as a sequence of whitespace characters (Tab, Space, Linefeed). Whitespace was created as a joke about code readability and the absolute minal visible footprint.
+        \item Intercal ("Compiler Language With No Pronounceable Acronym") is deliberately unconventional and parodic, aiming to diverge from all major programming languages of the era (FORTRAN, COBOL, ALGOL).Intercal was designed by Donald R. Woods and James M. Lyon in 1972. Programs consist of statements optionally labelled in parantheses and each statement must begin with 'politeness qualifers' such as "DO", "PLEASE", "PLEASE NOTE" (Over or underuse of "PLEASE" can lead to compiler rejection for being too polite or impolite). The semantics emphasize absurdity and (minimal) similiarity to conventional languages.
+        \end{enumerate}
 
-\end{enumerate}
 
 \newpage
 Hello world in Whitespace (The following source code is for a Whitespace "Hello, world!" program. For clarity, it is annotated with S, T and L before each space, tab, and linefeed.)
@@ -92,6 +96,9 @@ PLEASE GIVE UP
 \end{verbatim}
 
 
+\item 4
+\item 5
+\end{enumerate}
 \section{Implementation Questions}
 
     \begin{thebibliography}{9}
@@ -114,8 +121,26 @@ PLEASE GIVE UP
         \newblock IEEE Spectrum, September 2025.
         \newblock \url{https://spectrum.ieee.org/esoteric-programming-languages-daniel-temkin}
 
-https://en.wikipedia.org/wiki/Whitespace_(programming_language)
-https://en.wikipedia.org/wiki/INTERCAL
+        \bibitem{whitespacewiki}
+        Wikipedia contributors.
+        \newblock Whitespace (programming language).
+        \newblock \textit{Wikipedia, The Free Encyclopedia}.
+        \newblock [Online]. Available: \url{https://en.wikipedia.org/wiki/Whitespace_(programming_language)}
+        \newblock [Accessed: February 2026].
+
+        \bibitem{whitespacearchive}
+        Whitespace examples.
+        \newblock University of Durham CompSoc.
+        \newblock [Online]. Available: \url{https://web.archive.org/web/20150717115008/http://compsoc.dur.ac.uk/whitespace/examples.php}
+        \newblock [Archived Jul. 17, 2015].
+
+        \bibitem{intercalwiki}
+        Wikipedia contributors.
+        \newblock INTERCAL.
+        \newblock \textit{Wikipedia, The Free Encyclopedia}.
+        \newblock [Online]. Available: \url{https://en.wikipedia.org/wiki/INTERCAL}
+        \newblock [Accessed: February 2026].
+
 
 
     \end{thebibliography}
