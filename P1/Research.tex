@@ -9,6 +9,7 @@
 \usepackage{amssymb}
 \usepackage{geometry}
 \usepackage{hyperref}
+\usepackage[numbers]{natbib}
 \geometry{margin=2.5cm}
 
 \title{COS333 Practical 1}
@@ -23,12 +24,11 @@
 
 \newpage
 \section{Research Questions}
-\addcontentsline{tableofcontents}
 
 \begin{enumerate}
-    \item A computer programming language designed to experiment with weird ideas. They may be difficult to program in and are often created with a specific goal in mind (As a joke, to explore concepts, to be 'artistic', etc.)
+    \item A computer programming language designed to experiment with weird ideas. They may be difficult to program in and are often created with a specific goal in mind (As a joke, to explore concepts, to be `artistic', etc.) \cite{temkin2025book}.
 
-  \item Useful contributions of esoteric programming languages:
+  \item Useful contributions of esoteric programming languages \cite{singer2025, temkinieee2025}:
 \begin{itemize}
       \item Test the boundaries and possibilities of a programming concept
       \item Acts as a challenge for programmers
@@ -37,13 +37,13 @@
 \end{itemize}
     \item Chosen Esoteric Languages (a.Whitespace, b.Intercal)
         \begin{enumerate}
-        \item Whitespace is an imperative, stack-based language (similiar to Forth), created by Edwin Brady and Chris Morris in 2002. Whitespace defines a command as a sequence of whitespace characters (Tab, Space, Linefeed). Whitespace was created as a joke about code readability and the absolute minal visible footprint.
-        \item Intercal ("Compiler Language With No Pronounceable Acronym") is deliberately unconventional and parodic, aiming to diverge from all major programming languages of the era (FORTRAN, COBOL, ALGOL).Intercal was designed by Donald R. Woods and James M. Lyon in 1972. Programs consist of statements optionally labelled in parantheses and each statement must begin with 'politeness qualifers' such as "DO", "PLEASE", "PLEASE NOTE" (Over or underuse of "PLEASE" can lead to compiler rejection for being too polite or impolite). The semantics emphasize absurdity and (minimal) similiarity to conventional languages.
+        \item Whitespace is an imperative, stack-based language (similiar to Forth), created by Edwin Brady and Chris Morris in 2002. Whitespace defines a command as a sequence of whitespace characters (Tab, Space, Linefeed). Whitespace was created as a joke about code readability and the absolute minimal visible footprint \cite{whitespacewiki}.
+        \item Intercal (``Compiler Language With No Pronounceable Acronym'') is deliberately unconventional and parodic, aiming to diverge from all major programming languages of the era (FORTRAN, COBOL, ALGOL). Intercal was designed by Donald R. Woods and James M. Lyon in 1972. Programs consist of statements optionally labelled in parentheses and each statement must begin with `politeness qualifiers' such as ``DO'', ``PLEASE'', ``PLEASE NOTE'' (Over or underuse of ``PLEASE'' can lead to compiler rejection for being too polite or impolite). The semantics emphasize absurdity and (minimal) similarity to conventional languages \cite{intercalwiki}.
         \end{enumerate}
 
 
 \newpage
-Hello world in Whitespace (The following source code is for a Whitespace "Hello, world!" program. For clarity, it is annotated with S, T and L before each space, tab, and linefeed.)
+Hello world in Whitespace \cite{whitespacearchive} (The following source code is for a Whitespace ``Hello, world!'' program. For clarity, it is annotated with S, T and L before each space, tab, and linefeed.)
 \begin{verbatim}
 S S S T	S S T	S S S L:Push_+1001000=72='H'_onto_the_stack
 T	L
@@ -76,7 +76,7 @@ L
 L:End_the_program
 \end{verbatim}
 
-The following is a "Hello, world!" program in INTERCAL. 
+The following is a ``Hello, world!'' program in INTERCAL \cite{intercalwiki}.
 \begin{verbatim}
 DO ,1 <- #13
 PLEASE DO ,1 SUB #1 <- #238
@@ -97,7 +97,12 @@ PLEASE GIVE UP
 \end{verbatim}
 
 
-\item SALT was developed at the Institut für Informatik, Technische Universität München. It is a domain-specific specification and assertion language designed for expressing temporal properties. Advantages for programmers is a higher level of abstraction which makes coding concise. Intuitive temporal specifications are more readable compared to raw LTL formulas while remaining fully translatable to standard temporal logics.
+\item SALT was developed at the Institut f\"{u}r Informatik, Technische Universit\"{a}t
+M\"{u}nchen. It is a structured assertion language for temporal logic that, unlike other
+temporal specification formalisms, does not target a specific domain \cite{BauerLeuckerStreit2006}.
+Advantages for programmers include a higher level of abstraction which makes coding concise.
+Intuitive temporal specifications are more readable compared to raw LTL formulas while
+remaining fully translatable to standard temporal logics.
 \item Vibe coding is letting an LLM code for you while you just provide prompts and dont understand (or care) what code it gives you. 
     \begin{itemize}
         \item adv. Vibe coding can increase productivity by implementing mundane and routine code (Some algorithms, class headers, boilterplate, etc.) which allows the programmer to have a skeleton almost immediately which can be changed to suit their needs. 
@@ -107,53 +112,9 @@ PLEASE GIVE UP
 
 \end{itemize}
 \end{enumerate}
-\section{Implementation Questions}
 
-    \begin{thebibliography}{9}
-
-        \bibitem{singer2025}
-        Jeremy Singer and Steve Draper.
-        \newblock Let's Take Esoteric Programming Languages Seriously.
-        \newblock In \emph{Proceedings of Onward! '25}, 2025.
-        \newblock \url{https://dl.acm.org/doi/10.1145/3759429.3762632}
-
-        \bibitem{temkin2025book}
-        Daniel Temkin.
-        \newblock \emph{Forty-Four Esolangs: The Art of Esoteric Code}.
-        \newblock MIT Press, 2025.
-        \newblock \url{https://mitpress.mit.edu/9780262553087/forty-four-esolangs/}
-
-        \bibitem{temkinieee2025}
-        Daniel Temkin.
-        \newblock Esoteric Programming Languages: A Unique Challenge.
-        \newblock IEEE Spectrum, September 2025.
-        \newblock \url{https://spectrum.ieee.org/esoteric-programming-languages-daniel-temkin}
-
-        \bibitem{whitespacewiki}
-        Wikipedia contributors.
-        \newblock Whitespace (programming language).
-        \newblock \textit{Wikipedia, The Free Encyclopedia}.
-        \newblock [Online]. Available: \url{https://en.wikipedia.org/wiki/Whitespace_(programming_language)}
-        \newblock [Accessed: February 2026].
-
-        \bibitem{whitespacearchive}
-        Whitespace examples.
-        \newblock University of Durham CompSoc.
-        \newblock [Online]. Available: \url{https://web.archive.org/web/20150717115008/http://compsoc.dur.ac.uk/whitespace/examples.php}
-        \newblock [Archived Jul. 17, 2015].
-
-        \bibitem{intercalwiki}
-        Wikipedia contributors.
-        \newblock INTERCAL.
-        \newblock \textit{Wikipedia, The Free Encyclopedia}.
-        \newblock [Online]. Available: \url{https://en.wikipedia.org/wiki/INTERCAL}
-        \newblock [Accessed: February 2026].
-
-https://www.pspace.org/a/publications/icfem06.pdf
-
-
-
-    \end{thebibliography}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 
 

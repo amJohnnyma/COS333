@@ -1,0 +1,15 @@
+
+; cd to dir
+; logo "u23536030.lg
+; in logo -> polygon 5 100
+; Draw a regular polygon recursively
+; sides  = number of sides (input parameter)
+; length = length of each side
+to polygon :sides :length :os
+  if :sides <= 0 [stop]
+
+  fd :length 
+  rt 360 / :os
+ 
+  polygon (:sides - 1) :length :os
+end

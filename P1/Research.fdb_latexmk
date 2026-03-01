@@ -1,12 +1,19 @@
 # Fdb version 4
-["pdflatex"] 1772345752.74291 "Research.tex" "Research.pdf" "Research" 1772345753.14402 2
+["bibtex Research"] 1772352391.90219 "Research.aux" "Research.bbl" "Research" 1772352717.41164 0
+  "./references.bib" 1772352697.01995 2152 1ba9f567e94fd7ed8f15315042bbc397 ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
+  "Research.aux" 1772352717.31798 594 3f62761e1e5ba84fd796ca72b0c0d61c "pdflatex"
+  (generated)
+  "Research.bbl"
+  "Research.blg"
+  (rewritten before read)
+["pdflatex"] 1772352716.9653 "Research.tex" "Research.pdf" "Research" 1772352717.41229 2
   "/etc/texmf/web2c/texmf.cnf" 1758181692.77609 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk" 1771929270.14469 28952 f11ede72250174717f7f0e5e810c4903 ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk" 1771929270.86567 40112 c61fb591ae4e4d7f1a1e9a93c8f19c0f ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk" 1771929270.50568 26208 8c1a26524056a6ee3329b4893935b82f ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk" 1771929271.26865 28416 5f8deb7a10657ddb248622cc90fb9368 ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk" 1771929271.65164 42496 bbeaab27fa1f112670a6cba3fa75a1a0 ""
-  "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk" 1771930383.26475 35180 a30750835a3af9dfb64f2fe83a94c46f ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk" 1771931186.84681 21952 017f7bedf5114511e1ed0f4ede74a3af ""
   "/home/johnny/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1771929269.6907 12644 6388b85b2d209a71b23b048de790418f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -16,7 +23,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm" 1136768653 3584 3c76ccb63eda935a68ba65ba9da29f1a ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm" 1136768653 3072 b73d2778cc3af44970de4de5e032d7f6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm" 1136768653 1536 a988bfe554c1f79514bd46d13c3c64ce ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -26,7 +32,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -84,6 +89,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty" 1707919699 45458 f1c6cb3edd91174e966cbbaf88993bcf ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
@@ -91,10 +97,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758181697.8518 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758181714 6831005 00ab4777306ae5eea1c83196592bff57 ""
-  "Research.aux" 1772345753.09725 639 cc47c58123b7e4c85613ed08536c9e4c "pdflatex"
-  "Research.out" 1772345753.09725 302 506ab0a0b1b7c1a7477b20641f7e9209 "pdflatex"
-  "Research.tex" 1772345752.34171 6807 7368787ba77a773d5eddd9de019395d9 ""
-  "Research.toc" 1772345753.09825 180 a3e5a87e4c7313325358fa95afd3ab7f "pdflatex"
+  "Research.aux" 1772352717.31798 594 3f62761e1e5ba84fd796ca72b0c0d61c "pdflatex"
+  "Research.bbl" 1772352391.92631 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex Research"
+  "Research.out" 1772352717.31825 136 b35453fb7be1f2386d9142ca5acd290b "pdflatex"
+  "Research.tex" 1772352714.76793 5206 5e1f8cb7880f57087600ae54a245ff1d ""
+  "Research.toc" 1772352717.31825 100 f248b50576e0133f00f40caa6ebda102 "pdflatex"
   (generated)
   "Research.aux"
   "Research.log"
