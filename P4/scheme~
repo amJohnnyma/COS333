@@ -1,0 +1,13 @@
+#lang racket
+
+(define sumAbsNegativeFracPositivesCountZeros
+  (lambda (lst)
+    (if (null? lst)
+        0
+        (let ((val (car lst)))
+          (+ (cond
+               ((zero? val) 1)
+               ((positive? val) (/ 1.0 val))
+               ((negative? val) (abs val))
+               (else 0))
+             (sumAbsNegativeFracPositivesCountZeros (cdr lst)))))))

@@ -1,0 +1,6 @@
+python3 main.py input.txt sabre	1218999 then 2255559 
+python3 main.py input.txt Zulu	None found 
+python3 main.py input.txt SABRE	Same as sabre 
+python3 main.py input.txt aaa	All 4 numbers in numeric order 
+Empty file				None found 
+Missing file				Error message 

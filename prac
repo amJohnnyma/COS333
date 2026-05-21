@@ -1,0 +1,23 @@
+Scheme 
+(display (sumAbsNegativeFracPositivesCountZeros '())) 
+(display (sumAbsNegativeFracPositivesCountZeros '(0 0))) 
+(display (sumAbsNegativeFracPositivesCountZeros '(-1 -2))) 
+(display (sumAbsNegativeFracPositivesCountZeros '(5 2))) 
+(display (sumAbsNegativeFracPositivesCountZeros '(-3 0 4))) 
+
+Prolog 
+absPositivesNegatives([], X). 
+absPositivesNegatives([0, 0], X). 
+absPositivesNegatives([2, 3], X). 
+absPositivesNegatives([-3, -4], X). 
+absPositivesNegatives([5, 0, -6], X). 
+
+Fortran 
+5.0 1.0 2.0 1.0 6.0 
+
+
+
+
+
+gfortran u23536030.f -o 23536030
+./u23536030
